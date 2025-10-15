@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="nature">Nature</button>
+            <button class="filter-btn" data-category="city">City</button>
+            <button class="filter-btn" data-category="animals">Animals</button>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item nature">
+                <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=" alt="Nature 1">
+            </div>
+            <div class="gallery-item nature">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/049/855/347/small_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="Nature 3">
+            </div>
+            <div class="gallery-item nature">
+                <img src="https://thumbs.dreamstime.com/b/incredibly-beautiful-sunset-sun-lake-sunrise-landscape-panorama-nature-sky-amazing-colorful-clouds-fantasy-design-115177001.jpg" alt="Nature 4">
+            </div>
+            <div class="gallery-item city">
+                <img src="https://media.cntraveler.com/photos/5fc6818f3cfe1de2cab79372/master/pass/Amsterdam-GettyImages-840603854.jpg" alt="City 1">
+            </div>
+             <div class="gallery-item city">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1BF_HSCcLRHSUMub1TQ21y93Sbqzzr165Q&s" alt="City 3">
+            </div>
+            <div class="gallery-item animals">
+                <img src="https://cdn.britannica.com/94/494-050-A674AD3A/Fallow-deer-dama-dama.jpg" alt="Animal 1">
+            </div>
+            <div class="gallery-item nature">
+                <img src="https://img.freepik.com/free-photo/landscape-with-lake-sunset_395237-259.jpg?semt=ais_hybrid&w=740&q=80" alt="Nature 2">
+            </div>
+            <div class="gallery-item city">
+                <img src="https://loveincorporated.blob.core.windows.net/contentimages/gallery/145a7eb7-9c43-4d8e-bd11-a303162ed7ba-beautiful_cities_bruges.jpg" alt="City 2">
+            </div>
+             <div class="gallery-item city">
+                <img src="https://www.easemytrip.com/travel/img/venice-italy.jpg" alt="City 4">
+            </div>
+            <div class="gallery-item animals">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSYQsJhy05RQ9gTQrWN5MWCzWckwv3j-6D-g&s" alt="Animal 2">
+            </div>
+            <div class="gallery-item animals">
+                <img src="https://media.istockphoto.com/id/585613602/photo/close-up-cute-meerkat-animal-relaxing-in-the-dessert.jpg?s=612x612&w=0&k=20&c=VFavsGwny0cbaHyNrF-aUb_J4c9hVcTPVWNYFrgweNI=" alt="Animal 3">
+            </div>
+            <div class="gallery-item animals">
+                <img src="https://a-z-animals.com/media/tiger_laying_hero_background.jpg" alt="Animal 4">
+            </div>
+        </div>
+        <div class="lightbox" id="lightbox">
+            <span class="close-btn">&times;</span>
+            <button class="nav-btn prev-btn">&larr;</button>
+            <img id="lightbox-img" src="" alt="Lightbox Image">
+            <button class="nav-btn next-btn">&rarr;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
